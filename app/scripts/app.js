@@ -1,3 +1,4 @@
 'use strict';
 
-angular.module('prorataApp', []);
+angular.module('prorataApp', [
+]);
