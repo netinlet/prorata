@@ -4,12 +4,12 @@ angular.module('prorataApp', [
   'ui.bootstrap',
   'ngRoute'
 ]).config(function($routeProvider) {
-  $routeProvider.
-    when('/about', {
+  $routeProvider
+    .when('/about', {
       templateUrl: 'views/about.html',
       controller: 'AboutCtrl'
-    }).
-    otherwise({
+    })
+    .otherwise({
       templateUrl: 'views/main.html',
       controller: 'MainCtrl'
     })
