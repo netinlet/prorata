@@ -3,7 +3,7 @@
 describe('Factories: Calculator', function () {
 
   // load the factories module
-  beforeEach(module('prorataApp', ['ui.bootstrap']));
+  beforeEach(module('prorataApp'));
 
   var subject;
 
