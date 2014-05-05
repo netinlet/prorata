@@ -15,25 +15,4 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  //it('calculates the returnPremium', function() {
-    //expect(scope.prorataResult.returnPremium).toEqual('TODO');
-  //});
-
-  //it('calculates the earnedPremium', function() {
-    //expect(scope.prorataResult.earnedPremium).toEqual('TODO');
-  //});
-
-  //it('calculates the prorataRate', function() {
-    //expect(scope.prorataResult.prorataRate).toEqual('TODO');
-  //});
-
-  //it('calculates the earnedDays', function() {
-    //expect(scope.prorataResult.earnedDays).toEqual('TODO');
-  //});
-
-  //it('calculates the unearnedDays', function() {
-    //expect(scope.prorataResult.unearnedDays).toEqual('TODO');
-  //});
-
-
 });

@@ -62,3 +62,5 @@ body {
     margin-bottom: 30px;
   }
 }
+/* for angular-bootstrap */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
