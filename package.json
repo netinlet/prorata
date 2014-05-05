@@ -1,6 +1,6 @@
 {
   "name": "prorata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "grunt-contrib-copy": "~0.4.1"
   },
