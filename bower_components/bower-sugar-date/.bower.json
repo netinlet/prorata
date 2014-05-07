@@ -10,7 +10,7 @@
   "_resolution": {
     "type": "version",
     "tag": "v1.4.1",
-    "commit": "4d09fd7b69289dc3e45c3f418c56b0557632a9d9"
+    "commit": "8d762e9544d7270ee08b50e05363bfdf1d288891"
   },
   "_source": "git://github.com/netinlet/bower-sugar-date.git",
   "_target": "1.4.1",
