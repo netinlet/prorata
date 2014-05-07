@@ -1,0 +1,11 @@
+{
+  "name": "bower-sugar-date",
+  "version": "1.4.1",
+  "main": "./sugar-date.js",
+  "ignore": [
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
