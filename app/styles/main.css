@@ -4,6 +4,14 @@ body {
   padding-bottom: 20px;
 }
 
+.fiddy {
+  width: 50%;
+}
+
+hr {
+  border-top: 3px solid #e5e5e5;
+}
+
 .header,
 .marketing,
 .footer {
@@ -27,7 +35,7 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  border-top: 3px solid #e5e5e5;
 }
 
 /* Customize container */
@@ -38,14 +46,6 @@ body {
 }
 .container-narrow > hr {
   margin: 30px 0;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
 }
 
 /* Responsive: Portrait tablets and up */

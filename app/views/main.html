@@ -1,42 +1,34 @@
 <div class="row">
-    <div class="col-xs-8">
-        <form class="form-horizontal" role="form">
-            <div class="form-group" name="calculator">
-                <label for="effectiveDate" class="col-sm-3 control-label">Effective Date</label>
-                <div class="col-sm-5">
-                    <input type="date" class="form-control" ng-model="prorataCalculation.effectiveDate" ng-change="calculateExpirationDate(); recalculate()">
-                </div>
+    <div class="col-xs-6">
+        <form role="form">
+            <div class="form-group">
+                <label for="effectiveDate">Effective Date</label>
+                <input type="date" class="form-control fiddy" ng-model="prorataCalculation.effectiveDate" ng-change="calculateExpirationDate(); recalculate()">
             </div>
             <div class="form-group">
-                <label for="expirationDate" class="col-sm-3 control-label">Expiration Date</label>
-                <div class="col-sm-5">
-                    <input type="date" class="form-control" ng-model="prorataCalculation.expirationDate" ng-change="calculateTermInMonths(); recalculate()">
-                </div>
+                <label for="expirationDate">Expiration Date</label>
+                <input type="date" class="form-control fiddy" ng-model="prorataCalculation.expirationDate" ng-change="calculateTermInMonths(); recalculate()">
             </div>
             <div class="form-group">
-                <label for="cancellationDate" class="col-sm-3 control-label">Cancellation Date</label>
-                <div class="col-sm-5">
-                    <input type="date" class="form-control" ng-model="prorataCalculation.cancellationDate" ng-change="recalculate()">
-                </div>
+                <label for="cancellationDate">Cancellation Date</label>
+                <input type="date" class="form-control fiddy" ng-model="prorataCalculation.cancellationDate" ng-change="recalculate()">
             </div>
             <div class="form-group">
-                <label for="premiumAmount" class="col-sm-3 control-label">Premium Amount</label>
-                <div class="col-sm-5 input-group input-group-sm">
-                    <span class="input-group-addon">$</span>
-                    <input type="number" class="form-control" ng-model="prorataCalculation.premiumAmount" ng-change="recalculate()">
+                <label for="premiumAmount">Premium Amount</label>
+                <div class="input-group fiddy">
+                  <span class="input-group-addon">$</span>
+                  <input type="number" class="form-control" ng-model="prorataCalculation.premiumAmount" ng-change="recalculate()">
                 </div>
             </div>
         </form>
     </div>
-    <div class="col-xs-4">
-        <form class="form-horizontal" role="form">
+    <div class="col-xs-5">
+        <form role="form">
             <div class="form-group">
-                <label for="termInMonths" class="col-sm-3 control-label">Term in Months</label>
-                <div class="col-sm-5">
-                    <input type="number" class="form-control" ng-model="prorataCalculation.termInMonths" value="12" ng-change="calculateExpirationDate(); recalculate()">
-                </div>
+                <label for="termInMonths">Term in Months</label>
+                <input type="number" class="form-control fiddy" ng-model="prorataCalculation.termInMonths" value="12" ng-change="calculateExpirationDate(); recalculate()">
             </div>
-            <h3>Factor</h3>
+            <h4>Factor</h4>
             <div class="radio">
                 <label>
                     <input type="radio" ng-model="prorataCalculation.factorMethod" value="standard" checked="checked" ng-change="recalculate()">
@@ -52,6 +44,7 @@
         </form>
     </div>
 </div> <!-- row -->
+<hr/>
 <div class="row">
     <form class="form-horizontal" role="form">
         <div class="col-xs-6">
